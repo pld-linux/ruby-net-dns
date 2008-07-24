@@ -2,7 +2,8 @@ Summary:	Ruby library which implements a DNS resolver, a server and many other u
 Name:		ruby-net-dns
 Version:	0.4
 Release:	0.1
-License:	MIT
+# same as ruby
+License:	The Ruby License
 Group:		Development/Libraries
 Source0:	http://rubyforge.org/frs/download.php/20677/net-dns-%{version}.tgz
 # Source0-md5:	22182e53c8db20430dbed683596f38eb
