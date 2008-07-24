@@ -38,7 +38,6 @@ rdoc -o rdoc lib
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{ruby_rubylibdir}
-
 ruby setup.rb install \
 	--prefix=$RPM_BUILD_ROOT
 
@@ -47,7 +46,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc rdoc README AUTHORS
+%doc rdoc AUTHORS CHANGELOG README THANKS
 %dir %{ruby_rubylibdir}/net/dns
 %{ruby_rubylibdir}/net/dns/dns.rb
 %{ruby_rubylibdir}/net/dns/header.rb
